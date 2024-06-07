@@ -52,16 +52,19 @@ Let `d` = common difference \
 Let `a` = first term
 
 #### Formula for Nth term
+![ap_nth](https://github.com/saitejachakravarthula-DS/DataScience/assets/170711668/52866dcd-083a-4b24-a360-46e26344e931)
 
-![](assets/images/ap_nth.png)
+
 
 ```d
 T(n) = a + (n - 1) * d
 ```
 
 #### Sum of AP
+![ap_sum](https://github.com/saitejachakravarthula-DS/DataScience/assets/170711668/4886637a-f05c-4c24-ab5e-704322e83037)
 
-![](assets/images/ap_sum.png)
+
+
 
 ```d
 S(n) = (2 * a + (n - 1) * d) * n / 2
@@ -75,16 +78,20 @@ Let `a` = Initial Term \
 Let `r` = Common ratio
 
 #### Nth term
+![gp_nth](https://github.com/saitejachakravarthula-DS/DataScience/assets/170711668/f8047377-33c5-4706-b62a-a95a547879a9)
 
-![](assets/images/gp_nth.png)
+
+
 
 ```py
 T(n) = a * pow(r, n-1)
 ```
 
 #### Sum of GP
+![gp_sum](https://github.com/saitejachakravarthula-DS/DataScience/assets/170711668/8912255f-3c0c-4db7-a13d-acb436125e1d)
 
-![](assets/images/gp_sum.png)
+
+
 
 ```d
 S(n) = a * ((pow(r,n) - 1)/(r - 1))     if r != 1
@@ -96,8 +103,9 @@ S(n) = a * n                            if r == 1
 The combination is a way of selecting items from a collection, such that the order of selection does not matter.
 
 #### Formula:
+<img width="338" alt="combination_formula" src="https://github.com/saitejachakravarthula-DS/DataScience/assets/170711668/72e823e8-7815-4264-976b-0d392243c61b">
 
-<img src="./assets/images/combination_formula.png" width="300">
+
 
 ```d
 C(N, R) = N! / ((N-R)! * R!)
@@ -130,7 +138,8 @@ function combination(n, r):
 
 #### Important Property
 
-![](assets/images/combination_property.png)
+<img width="153" alt="combination_property" src="https://github.com/saitejachakravarthula-DS/DataScience/assets/170711668/fab3acfd-f166-491c-aada-08421adffc6d">
+
 
 ```d
 C(n, r) = C(n, n - r)
@@ -141,8 +150,9 @@ C(n, r) = C(n, n - r)
 A permutation is a mathematical technique that determines the number of possible arrangements in a set when the order of the arrangements matters.
 
 #### Formula
+<img width="293" alt="permutation_formula" src="https://github.com/saitejachakravarthula-DS/DataScience/assets/170711668/154d2717-7a6b-442e-ae12-57e13e6d3e2d">
 
-<img src="./assets/images/permutation_formula.png" width="300">
+
 ```d
 P(n, r) = n! / (n-r)!
 ```
