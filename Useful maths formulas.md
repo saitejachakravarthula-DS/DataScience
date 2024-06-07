@@ -43,7 +43,7 @@ function lcm(a, b):
 ```
 
 ## Arithmetic Progression - AP
-![ap_nth](https://github.com/saitejachakravarthula-DS/DataScience/assets/170711668/d51c6363-a878-436d-b603-b275f8100da1)
+
 
 
 An arithmetic progression (AP), also called an arithmetic sequence, is a sequence of numbers which differ from each other by a common difference. For example, the sequence 2, 4, 6, 8, ... is an arithmetic sequence with the common difference 2.
